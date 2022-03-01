@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Orchestration.AgriculturalProductsMarketing", "Architecture.Orchestration.AgriculturalProductsMarketing\Architecture.Orchestration.AgriculturalProductsMarketing.csproj", "{955FBBE8-0D75-4655-8DE9-040ADA87D0D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EAC20A8E-F9C0-4DCA-B3F8-58B774D5AB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Business.AgriculturalProductsMarketing", "Architecture.Business.AgriculturalProductsMarketing\Architecture.Business.AgriculturalProductsMarketing.csproj", "{4497040A-7A77-48BC-84B0-F03C0EAF977D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgriculturalProductsMarketing", "UI\AgriculturalProductsMarketing\AgriculturalProductsMarketing.csproj", "{3BFB7030-549B-46F6-BA7C-E6D4D1B29440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Types.AgriculturalProductsMarketing", "Architecture.Types.AgriculturalProductsMarketing\Architecture.Types.AgriculturalProductsMarketing.csproj", "{32D04374-0928-4DFB-94F9-D3271AC023DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{955FBBE8-0D75-4655-8DE9-040ADA87D0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955FBBE8-0D75-4655-8DE9-040ADA87D0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955FBBE8-0D75-4655-8DE9-040ADA87D0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955FBBE8-0D75-4655-8DE9-040ADA87D0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4497040A-7A77-48BC-84B0-F03C0EAF977D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4497040A-7A77-48BC-84B0-F03C0EAF977D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4497040A-7A77-48BC-84B0-F03C0EAF977D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4497040A-7A77-48BC-84B0-F03C0EAF977D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFB7030-549B-46F6-BA7C-E6D4D1B29440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFB7030-549B-46F6-BA7C-E6D4D1B29440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFB7030-549B-46F6-BA7C-E6D4D1B29440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFB7030-549B-46F6-BA7C-E6D4D1B29440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D04374-0928-4DFB-94F9-D3271AC023DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D04374-0928-4DFB-94F9-D3271AC023DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D04374-0928-4DFB-94F9-D3271AC023DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D04374-0928-4DFB-94F9-D3271AC023DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BFB7030-549B-46F6-BA7C-E6D4D1B29440} = {EAC20A8E-F9C0-4DCA-B3F8-58B774D5AB8A}
+	EndGlobalSection
+EndGlobal
